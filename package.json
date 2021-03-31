@@ -1,0 +1,20 @@
+{
+  "name": "pkg-evm",
+  "version": "0.1.0",
+  "private": true,
+  "bin": "./bin",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "web3": "^1.3.4",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "pkg": "^4.5.1"
+  },
+  "scripts": {
+    "clean": "rm -rf build/**",
+    "build": "npm run clean && npx pkg src/index.js --output=bin/evm-util --target=node12-macos-x64"
+  },
+  "license": "MIT"
+}
