@@ -10,7 +10,7 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "pkg": "^4.5.1"
+    "pkg": "5.2.1"
   },
   "scripts": {
     "clean": "rm -rf build/**",
